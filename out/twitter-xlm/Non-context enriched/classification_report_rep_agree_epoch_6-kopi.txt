@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+       Agree       0.60      0.83      0.70       526
+    Disagree       0.82      0.76      0.79       568
+     Unclear       0.69      0.40      0.50       384
+
+    accuracy                           0.69      1478
+   macro avg       0.70      0.66      0.66      1478
+weighted avg       0.71      0.69      0.68      1478

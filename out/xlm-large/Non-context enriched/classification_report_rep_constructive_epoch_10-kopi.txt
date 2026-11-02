@@ -1,0 +1,9 @@
+                             precision    recall  f1-score   support
+
+           Not Constructive       0.91      0.94      0.92      1096
+               Constructive       0.81      0.76      0.79       289
+Unclassifiable Constructive       0.78      0.58      0.67        93
+
+                   accuracy                           0.88      1478
+                  macro avg       0.83      0.76      0.79      1478
+               weighted avg       0.88      0.88      0.88      1478

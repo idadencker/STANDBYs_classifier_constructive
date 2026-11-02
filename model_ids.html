@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Model References</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 28px;
+      background: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2937;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .model-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    .model-table th,
+    .model-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #e5e7eb;
+      vertical-align: middle;
+    }
+
+    .model-table th {
+      background-color: #f3f4f6;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .model-table tbody tr:hover {
+      background-color: #f9fafb;
+    }
+
+    .model-table td:nth-child(2) {
+      font-family: monospace;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .model-table td:nth-child(3) {
+      white-space: nowrap;
+    }
+
+    .model-table a {
+      color: #2563eb;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .model-table a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 16px;
+      }
+
+      .model-table {
+        min-width: 850px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="table-container">
+    <table class="model-table">
+      <thead>
+        <tr>
+          <th>Model name</th>
+          <th>Hugging Face ID</th>
+          <th>Revision</th>
+          <th>Reference</th>
+          <th>Direct link</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>XLM-RoBERTa</td>
+          <td>FacebookAI/xlm-roberta-large</td>
+          <td>Main</td>
+          <td>Conneau et al. (2020)</td>
+          <td>
+            <a
+              href="https://huggingface.co/FacebookAI/xlm-roberta-large"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Hugging Face</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>multilingual-e5</td>
+          <td>intfloat/multilingual-e5-large</td>
+          <td>Main</td>
+          <td>Wang et al. (2024)</td>
+          <td>
+            <a
+              href="https://huggingface.co/intfloat/multilingual-e5-large"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Hugging Face</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>twitter-xlm</td>
+          <td>cardiffnlp/twitter-xlm-roberta-base</td>
+          <td>Main</td>
+          <td>Barbieri et al. (2022)</td>
+          <td>
+            <a
+              href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Hugging Face</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>mmBERT</td>
+          <td>jhu-clsp/mmBERT-base</td>
+          <td>Main</td>
+          <td>Marone et al. (2025)</td>
+          <td>
+            <a
+              href="https://huggingface.co/jhu-clsp/mmBERT-base"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Hugging Face</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
